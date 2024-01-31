@@ -1,0 +1,38 @@
+{
+    "titulo": [
+        "O Polímata",
+        "O Percuror",
+        "O Líder",
+        "O Símbolo"
+    ],
+    "temas":[
+        "doom",
+        "jacket",
+        "silent"
+    ],
+    "modos":{
+        "doom":[
+            "./img/doom.png",["url('img/doom (1).jpg') center center no-repeat"],
+            false
+        ],
+        "jacket":[
+            "./img/jacket.png",
+            ["url('img/jacket (1).jpg') center center no-repeat",
+            "url('img/jacket (2).jpg') center center no-repeat",
+            "url('img/jacket (3).jpg') center center no-repeat",
+            "url('img/jacket (4).jpg') center center no-repeat",
+            "url('img/jacket (5).jpg') center center no-repeat",
+            "url('img/jacket (6).jpg') center center no-repeat",
+            "url('img/jacket (7).jpg') center center no-repeat"],
+            false
+        ],
+        "silent":[
+            "./img/silentHill.jpg",
+            ["url('img/silentHill (1).jpg') center center no-repeat",
+            "url('img/silentHill (2).jpg') center center no-repeat",
+            "url('img/silentHill (3).jpg') center center no-repeat",
+            "url('img/silentHill (4).jpg') center center no-repeat"],
+            false
+        ]
+    }
+}
