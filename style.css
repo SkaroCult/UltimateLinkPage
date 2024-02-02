@@ -19,18 +19,21 @@
 .silent:root{
     --font-family-title: silentHill;
     --font-family-geral: silentHill;
+    --background-solid:rgba(38, 42, 65, 0.76);
     --background-linear: linear-gradient(90deg, rgba(38, 42, 65, 0.76), rgba(0, 0, 255, 0));
     --background-hover: rgba(42, 42, 78, 0.61);
 }
 .doom:root{
     --font-family-title: doom;
     --font-family-geral: doomSub;
+    --background-solid:rgb(172, 0, 0);
     --background-linear: linear-gradient(90deg, rgb(172, 0, 0), rgba(0, 0, 255, 0));
     --background-hover: rgba(87, 4, 4, 0.658);
 }
 .jacket:root{
     --font-family-title: jacket;
     --font-family-geral: jacket;
+    --background-solid:rgba(235, 50, 142, 0.76);
     --background-linear: linear-gradient(90deg, rgba(235, 50, 142, 0.76), rgba(0, 0, 255, 0));
     --background-hover: rgba(47, 4, 87, 0.658);
 }
@@ -99,4 +102,29 @@ main ul li a i{
 main ul li a h3{
     font-size: 27px;
     margin: 10px;
+}
+
+@media (max-width:700px) {
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section#linkSide{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-image:var(--background-solid)
+    }
+    div#me{
+        text-align: center;
+    }
+}
+@media (max-width:485px){
+    main ul li a i{
+        font-size: 30px;
+    }
+    main ul li a h3{
+        font-size: 20px;
+    }
 }
